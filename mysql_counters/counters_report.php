@@ -28,6 +28,8 @@
 
 //error_reporting(0);
 
+include 'fix_mysql.inc.php';
+
 //Host title used to identify host in history table
 $host_title = $argv[1];
 $mysql_host = $argv[2];
